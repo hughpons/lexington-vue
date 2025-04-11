@@ -1,0 +1,2 @@
+# lexington-vue
+Student management
