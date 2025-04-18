@@ -42,7 +42,6 @@ AS
 		, [Last_Name] = @LastName
 		, [Description] = @Description
 		, [Modify_Date] = SYSDATETIMEOFFSET()
-		, [Modify_User] = SUSER_SNAME()
 	WHERE [Student_Id] = @StudentId
 	
 	RETURN IIF(@@ERROR = 0, 0, -1)

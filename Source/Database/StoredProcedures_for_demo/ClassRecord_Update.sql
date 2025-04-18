@@ -36,7 +36,6 @@ AS
 	SET [Class_Name] = @ClassName
 		, [Description] = @Description
 		, [Modify_Date] = SYSDATETIMEOFFSET()
-		, [Modify_User] = SUSER_SNAME()
 	WHERE [Class_Id] = @ClassId
 	
 	RETURN IIF(@@ERROR = 0, 0, -1)

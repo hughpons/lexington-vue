@@ -24,7 +24,6 @@ CREATE TABLE [Lexington].[Student](
 	[Create_Date] [datetimeoffset](7) NULL,
 	[Modify_Date] [datetimeoffset](7) NULL,
 	[Create_User] [nvarchar](100) NULL,
-	[Modify_User] [nvarchar](100) NULL,
 CONSTRAINT [PK__Lexington__Student] PRIMARY KEY CLUSTERED
 (
 	[Student_Id] ASC
@@ -58,7 +57,6 @@ CREATE TABLE [Lexington].[Class](
 	[Create_Date] [datetimeoffset](7) NULL,
 	[Modify_Date] [datetimeoffset](7) NULL,
 	[Create_User] [nvarchar](100) NULL,
-	[Modify_User] [nvarchar](100) NULL,
 CONSTRAINT [PK__Lexington__Class] PRIMARY KEY CLUSTERED
 (
 	[Class_Id] ASC
@@ -135,7 +133,6 @@ CREATE TABLE [Universal].[User](
 	[Create_Date] [datetimeoffset](7) NULL,
 	[Modify_Date] [datetimeoffset](7) NULL,
 	[Create_User] [nvarchar](100) NULL,
-	[Modify_User] [nvarchar](100) NULL,
 CONSTRAINT [PK__Universal__User] PRIMARY KEY CLUSTERED
 (
 	[User_Id] ASC
